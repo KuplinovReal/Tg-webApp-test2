@@ -1,0 +1,47 @@
+body {
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+}
+
+button {
+    position: absolute;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    color: var(--tg-theme-button-color);
+}
+
+#button1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 120px;
+    height: 60px;
+    background-color: #3498db;
+    color: #fff;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#outputText1{
+    position: absolute;
+}
+
+#Textmain{
+    position: absolute;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    margin: 5px;
+}
